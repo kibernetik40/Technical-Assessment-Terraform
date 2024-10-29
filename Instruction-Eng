@@ -1,0 +1,23 @@
+To install Istio Service Mesh on Minikube using Terraform and Helm, we can use the following script. 
+1. Installation of necessary components
+We check that the following components are installed:
+-Minikube
+-Helm
+ -Terraform
+2. Setting up Terraform
+Create a directory for our project and create a file in it main.tf
+3. Initialization and application
+-Let's go to the directory with the file main.tf .
+-Initialize Terraform:
+    - ├── terraform init
+-Apply the configuration:
+    - ├── terraform apply
+4. Access to the application
+After successfully applying the configuration, we will be able to access the application through the Istio Ingress Gateway. To do this, we will first get the Minikube IP address:
+- ├── minikube ip
+Then open the browser and go to http://<minikube_ip>/, replacing <minikube_ip> with the received IP.
+Notes
+-We are making sure that all dependencies (Minikube, Helm, Terraform) are installed and configured.
+-The Istio version in the example can be changed to the current one at the time of use.
+-Depending on the settings of our Minikube, we may need to use additional parameters to work with kubectl and other tools.
+Now we should have a working Istio Service Mesh with an example Apache HTTPD-based application!
