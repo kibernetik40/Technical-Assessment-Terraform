@@ -18,3 +18,4 @@ Note:
 3-	Write a run manual how to run the script in English/Russian 
 
 
+Прежде чем делать посмотрите на инструкцию, там есть по шаговое объяснение как на английском так и на русском | Before doing this, look at the instructions, there is a step-by-step explanation in both English and Russian
